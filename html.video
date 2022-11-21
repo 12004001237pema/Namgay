@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="video.css" />
+</head>
+
+<body>
+    <div id="continer">
+    <!-- Header -->
+        <header>
+            <button id="button1" onclick="mood()">Light Mode</button>
+ <img src="" />
+<ul>
+                <li id="home"> <a href="index.html"> Home </a></li>  
+                <li id="services"><a href="attraction.html">Attraction</a></li>
+                <li id="video">Video</a>
+                <li id="contact"><a href="contact.html">Contact Us</a></li>
+               
+</ul>
+           
+ 
+</header>  
+         
+         <!-- Header end -->
+   
+    <video width="320" height="240" controls>
+        <source src="/res/dab9b734-5229-4114-b041-35ed84ce5027/Bhutan in 30 Seconds.mp4" type="video/mp4">
+        </video>
+   
+    </div>
+   
+   
+   
+   
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

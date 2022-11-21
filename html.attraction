@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="attraction.css" />
+</head>
+
+<body>
+   
+
+        <!-- Header -->
+        <header>
+ <button id="button1" onclick="mood()">Light Mode</button>
+<ul>
+<li id="home"> <a href="index.html">Home</a></li>  
+                <li id="services">Attraction</li>
+                <li id="video"><a href="contact.html">Video</a> </li>
+                <li id="contact"> <a href="contact.html"> Contact Us </a> </li>
+               
+</ul>
+           
+<!--                 <select id="tandin" >
+<!--                 <option >light</option>
+                <option>dark</option> -->
+<!--                 </select> -->
+ 
+</header>  
+ 
+                 
+                <!-- starting of about page -->
+                 <h2>Some of Best Paradise of Bhutan </h2>
+
+<div class="container">
+  <img src="https://live.staticflickr.com/65535/49730344616_483109df21_b.jpg"  class="image">
+  <div class="overlay">
+    <div class="text">
+        <p>Phobjikha is a high-altitude wetland, being located above 3,000 m. It is the wintering ground (late October to early March) for the black-necked crane (Grus nigricollis), a globally threatened species. These cranes return to their breeding place in the Tibetan-Qinghai plateau for the summer.</p>
+      </div>
+     </div>
+   </div>
+  <br/><br/>
+   
+   
+   
+ 
+<div class="container">
+  <img src="https://thrillingtravel.in/wp-content/uploads/2019/07/Iron-Bridge-Tachog-Lhakhang-Bhutan-1024x683.jpg"  class="image1">
+  <div class="overlay">
+    <div class="text">
+        <p>Popularly known as Tachog Lhakhang or 'temple of the hill of the excellent horse', the Tamchoe Monastery stands on a mountain base at an altitude of 2156m along the highway connecting Paro and Thimphu. </p>
+      </div>
+     </div>
+   </div>  
+   <br/><br/>
+   
+ <div class="container">
+  <img src= "https://i2.wp.com/shadesofwords.com/wp-content/uploads/2019/01/DSCN1382.jpg?fit=1024%2C768&ssl=1"  class="image2">
+  <div class="overlay">
+    <div class="text">
+        <p>Paro Taktsang (Dzongkha: སྤ་གྲོ་སྟག་ཚང་, also known as the Taktsang Palphug Monastery and the Tiger's Nest),[1] is a sacred Vajrayana Himalayan Buddhist site located in the cliffside of the upper Paro valley in Bhutan. It is one of thirteen Tiger's Nest caves in historical Tibet in which Padmasambhava practiced and taught Vajrayana.[2]</p>
+      </div>
+     </div>
+   </div>  
+   
+   
+   
+<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

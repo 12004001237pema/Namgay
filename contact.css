@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alumni+Sans+Collegiate+One&family=Anton&family=Bungee+Shade&family=Courgette&family=Creepster&family=DynaPuff&family=Fleur+De+Leah&family=Libre+Baskerville&family=Lobster&family=Lobster+Two&family=Monoton&family=Niconne&family=Poppins&family=Rubik+Dirt&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alumni+Sans+Collegiate+One&family=Bungee+Shade&family=Courgette&family=Creepster&family=DynaPuff&family=Fleur+De+Leah&family=Libre+Baskerville&family=Lobster&family=Lobster+Two&family=Monoton&family=Niconne&family=Poppins&family=Rubik+Dirt&family=Ultra&display=swap');
+header {
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v960-ning-30.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=63dd5f402645ef52fb7dfb592aec765a");
+}
+header {
+  background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v960-ning-30.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=63dd5f402645ef52fb7dfb592aec765a");
+   
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+ul {
+    margin-top: 3px;
+    width: auto;
+    height: 60px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: darkgrey;
+    border-radius: 5px;
+}
+ #home:hover{
+  color: aqua;
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+    transition: 1s;
+     
+}
+
+ a:hover{
+  color: aqua;
+    cursor: pointer;
+    transform: scale(1.2,1.2);
+    transition: 1s;
+}
+li {
+    padding-top: 20px;
+  padding-left: 200px;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+}
+h2 {
+ 
+}
+#button1{
+    text-align: right;
+    margin: 5px 50%;
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 3px 10px;
+   
+}
+#button1:hover{
+       background-color: fuchsia;
+    transform: scale(1.2,1.2);
+    transition: 4s;
+}
+.changeColor{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.call {
+    background-image: url("https://cdn.dribbble.com/users/241617/screenshots/1134051/media/a715c5f1426c92d87dd06633af842937.gif");
+  position: relative;
+ margin: 100px auto 100px;
+  width: 300px;
+  height: 450px;
+  background-repeat: round;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+   align-items: center;
+  padding: 25px;
+}
+
+ h1 {
+  color: #ffffff;
+  padding-bottom: 485px
+}
+
+.call:before,
+.call:after {
+   content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background: linear-gradient(
+    45deg,
+    white,
+    yellow,
+    orangered,
+    orange,
+    blue,
+    green,
+    white,
+    black,
+    blue
+  );
+  background-size: 400% ;
+   
+  width: calc(100% + 10px);
+   height: calc(100% + 10px);
+  border-radius: 20px;
+   z-index: -1;
+  animation: animate 4s ease alternate infinite;
+}
+
+  .call:after {
+  filter: blur(300px);  
+/*     filter:drop-shadow(0 0 5px #fff) drop-shadow(0 0 10px #fff) drop-shadow(0 0 5px #fff); */
+   
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  0% {
+    background-position: 10% 50%;
+  }
+
+  80% {
+    background-position: 10% 80%;
+  }
+
+  10% {
+    background-position: 100% 80%;
+  }
+}
+.regester{
+    background-color: gainsboro;
+    border: 8px solid green;
+}
+h1 {
+  text-align: center;
+}
+ol {
+  list-style:  none;
+}
+#address{
+    padding-right: 15px;
+    font-size: 25px;
+}
+h3 {
+   
+    margin-left: 250px;
+}
+ form {
+  box-shadow: 0px 0px 20px gray;
+    width: 380px;
+    height: 400px;
+    padding-top: 30px;
+     padding-left: 30px;
+     border-radius: 20px;
+    background-color: orange ;
+     margin-left: 250px;
+}
+#click {
+  width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 80px;
+    font-family: 'Libre Baskerville', serif;
+    background-color: lightgray;
+   
+}
+#click:hover{
+    background-color: cyan;
+    box-shadow: 3px 4px 6px greenyellow;
+}
+.detial{
+    margin-top: 30px;
+}
